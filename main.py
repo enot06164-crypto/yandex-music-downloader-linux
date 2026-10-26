@@ -34,11 +34,7 @@ from typing import Optional
 from logging.handlers import RotatingFileHandler
 
 try:
-    try:
     from PyQt5.QtWidgets import QApplication
-    HAS_QT = True
-except Exception:
-    HAS_QT = False
     HAS_QT = True
 except Exception:
     HAS_QT = False
